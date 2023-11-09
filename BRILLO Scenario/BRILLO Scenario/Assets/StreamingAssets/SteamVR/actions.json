@@ -1,0 +1,269 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/InteractUI",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Teleport",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GrabPinch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GrabGrip",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/in/SkeletonLeftHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/default/in/SkeletonRightHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/default/in/Squeeze",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/default/in/HeadsetOnHead",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/default/in/SnapTurnLeft",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/default/in/SnapTurnRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/out/Haptic",
+      "type": "vibration"
+    },
+    {
+      "name": "/actions/platformer/in/Move",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/platformer/in/Jump",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/buggy/in/Steering",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/buggy/in/Throttle",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/buggy/in/Brake",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/buggy/in/Reset",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/mixedreality/in/ExternalCamera",
+      "type": "pose",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/DiscMenu/in/ActivateMenu",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/DiscMenu/in/Select",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/DiscMenu/in/MenuSelection",
+      "type": "vector2",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/ROS/in/Trigger",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Trigger_dx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Menu_dx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/System_dx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Touch_Pad_dx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Gripper_dx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Trigger_sx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Menu_sx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/System_sx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Touch_Pad_sx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Button_State/in/Gripper_sx",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Movement/in/PlayerController",
+      "type": "vector2"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/platformer",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/buggy",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/mixedreality",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/DiscMenu",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/ROS",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/Button_State",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/Movement",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic_controller.json"
+    },
+    {
+      "controller_type": "vive_cosmos_controller",
+      "binding_url": "bindings_vive_cosmos_controller.json"
+    },
+    {
+      "controller_type": "logitech_stylus",
+      "binding_url": "bindings_logitech_stylus.json"
+    },
+    {
+      "controller_type": "vive_cosmos",
+      "binding_url": "binding_vive_cosmos.json"
+    },
+    {
+      "controller_type": "vive",
+      "binding_url": "binding_vive.json"
+    },
+    {
+      "controller_type": "indexhmd",
+      "binding_url": "binding_index_hmd.json"
+    },
+    {
+      "controller_type": "vive_pro",
+      "binding_url": "binding_vive_pro.json"
+    },
+    {
+      "controller_type": "rift",
+      "binding_url": "binding_rift.json"
+    },
+    {
+      "controller_type": "holographic_hmd",
+      "binding_url": "binding_holographic_hmd.json"
+    },
+    {
+      "controller_type": "vive_tracker_camera",
+      "binding_url": "binding_vive_tracker_camera.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/GrabGrip": "Grab Grip",
+      "/actions/default/in/GrabPinch": "Grab Pinch",
+      "/actions/default/in/HeadsetOnHead": "Headset on head (proximity sensor)",
+      "/actions/default/in/InteractUI": "Interact With UI",
+      "/actions/default/in/Pose": "Pose",
+      "/actions/default/in/SkeletonLeftHand": "Skeleton (Left)",
+      "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
+      "/actions/default/in/Teleport": "Teleport",
+      "/actions/default/out/Haptic": "Haptic",
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/default/in/SnapTurnLeft": "Snap Turn (Left)",
+      "/actions/default/in/SnapTurnRight": "Snap Turn (Right)",
+      "/actions/DiscMenu/in/ActivateMenu": "ActivateMenu",
+      "/actions/DiscMenu/in/Select": "Select",
+      "/actions/DiscMenu/in/MenuSelection": "MenuSelection",
+      "/actions/ROS/in/Trigger": "Trigger",
+      "/actions/Button_State/in/Trigger_dx": "Trigger_dx",
+      "/actions/Button_State/in/Menu_dx": "Menu_dx",
+      "/actions/Button_State/in/System_dx": "System_dx",
+      "/actions/Button_State/in/Touch_Pad_dx": "Touch_Pad_dx",
+      "/actions/Button_State/in/Gripper_dx": "Gripper_dx",
+      "/actions/Button_State/in/Trigger_sx": "Trigger_sx",
+      "/actions/Button_State/in/Menu_sx": "Menu_sx",
+      "/actions/Button_State/in/System_sx": "System_sx",
+      "/actions/Button_State/in/Touch_Pad_sx": "Touch_Pad_sx",
+      "/actions/Button_State/in/Gripper_sx": "Gripper_sx",
+      "/actions/Movement/in/PlayerController": "PlayerController"
+    }
+  ]
+}

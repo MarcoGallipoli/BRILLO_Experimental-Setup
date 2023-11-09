@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.brilloscenario.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Unity projects\\BRILLO\\Unity project (con controller Vive e ROS) finale\\BRILLO Scenario\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "BRILLO Scenario [Testing]"
+        }
+      }
+    }
+  ]
+}
