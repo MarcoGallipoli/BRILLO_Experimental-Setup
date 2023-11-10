@@ -1,0 +1,8 @@
+prefix=/home/marco/aruco_marker_detection/devel
+
+Name: aruco_ros
+Description: Description of aruco_ros
+Version: 3.0.3
+Cflags: -I/home/marco/aruco_marker_detection/devel/include -I/home/marco/aruco_marker_detection/src/aruco_ros/include
+Libs: -L${prefix}/lib -laruco_ros_utils
+Requires: aruco sensor_msgs tf

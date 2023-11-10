@@ -1,0 +1,2 @@
+aruco:aruco_msgs:aruco_ros:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/marco/aruco_marker_detection/devel -DCMAKE_INSTALL_PREFIX=/home/marco/aruco_marker_detection/install -G Unix Makefiles
