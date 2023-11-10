@@ -23,7 +23,7 @@ This work has been supported by the BRILLO project (Bartending Robot for Interac
 1. Download the package "arcuo_marker_detection" to set the aruco marker detection
 2. Launch the command: "roslaunch aruco_marker_detection brillo.launch" (the launch file refers to the usb camera of the experimental setup, it can be easily modified to the camera you will use in the launch file)
 3. Download the package "iiwa_teleop"
-4. Launch the command: "roslaunch iiwa_teleop...."
+4. Launch the command: "roslaunch iiwa_plan brillo.launch simulated:=yes"
 
 ### How to setup the Unity package
 1. Download the correct Unity version from the store
