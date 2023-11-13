@@ -1,8 +1,0 @@
-prefix=/home/marco/aruco_marker_detection/devel
-
-Name: aruco
-Description: Description of aruco
-Version: 3.0.3
-Cflags: -I/home/marco/aruco_marker_detection/src/aruco/include
-Libs: -L${prefix}/lib -laruco
-Requires: 
