@@ -2,12 +2,12 @@
 
 This work has been supported by the BRILLO project (Bartending Robot for Interactive Long-Lasting Operations) which has received funding from the PON I&C 2014-2020 MISE. 
 
-Click [here](https://youtu.be/TswIHnw6SZU) to see the video of the developed teleoperation architecture
+Click [here](https://youtu.be/TswIHnw6SZU) to see the video of the experimental setup
 
 [![image](https://github.com/MarcoGallipoli/BRILLO_Experimental-Setup/assets/114300604/2247ebfa-296c-4af9-8cda-7ce70d430466)
 ](https://youtu.be/TswIHnw6SZU)
 
-Click [here](https://youtu.be/N-BpNpUDd4Y) to see the tutorial video of the developed teleoperation architecture
+Click [here](https://youtu.be/N-BpNpUDd4Y) to see the tutorial video
 
 [![image](https://github.com/MarcoGallipoli/BRILLO_Experimental-Setup/assets/114300604/4ac98379-5f5e-4d1d-986a-183565bf440a)
 ](https://youtu.be/N-BpNpUDd4Y
